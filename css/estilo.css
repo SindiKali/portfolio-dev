@@ -34,11 +34,12 @@ body::before {
 
 .texto-neon {
     color: var(--text-light);
-    text-shadow: 0 0 5px var(--secondary-pink),
-                 0 0 10px var(--secondary-pink),
-                 0 0 20px var(--primary-purple),
+    text-shadow: 0 0 8px var(--secondary-pink),
+                 0 0 15px var(--secondary-pink),
                  0 0 30px var(--primary-purple),
-                 0 0 40px var(--tertiary-blue);
+                 0 0 50px var(--primary-purple),
+                 0 0 70px var(--tertiary-blue),
+                 0 0 90px var(--tertiary-blue);
 }
 
 .cabecalho {
@@ -103,27 +104,13 @@ body::before {
     z-index: 1;
 }
 
-.conteudo-principal {
+.cabecalho {
     position: relative;
     z-index: 2;
     color: var(--text-light);
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-}
-
-.conteudo-principal p {
-    font-size: 1.2em;
-    font-style: italic;
-    color: var(--secondary-pink);
-    text-shadow: 0 0 5px var(--secondary-pink);
-}
-
-.conteudo-principal h2 {
-    font-size: 3em;
-    margin-top: 10px;
-    letter-spacing: 3px;
-    text-shadow: 0 0 10px var(--tertiary-blue), 0 0 20px var(--primary-purple);
 }
 
 .botao-chamada {
@@ -157,8 +144,8 @@ body::before {
 }
 
 .foto-perfil-container:hover {
-    border-color: var(--tertiary-blue); /* Altera a cor da borda no hover */
-    box-shadow: 0 0 15px var(--tertiary-blue), 0 0 25px var(--primary-purple); /* Intensifica o neon no hover */
+    border-color: var(--tertiary-blue);
+    box-shadow: 0 0 15px var(--tertiary-blue), 0 0 25px var(--primary-purple);
 }
 
 .foto-perfil {
@@ -319,7 +306,7 @@ body::before {
         flex-direction: column;
         gap: 10px;
     }
-    .conteudo-principal h2 {
+    .cabecalho h2 {
         font-size: 2em;
     }
     .secao {
