@@ -32,6 +32,14 @@ body::before {
     z-index: -1;
 }
 
+.rank-title {
+    color: var(--tertiary-blue);
+    font-size: 0.9em;
+    margin-left: 10px;
+    text-shadow: 0 0 3px var(--tertiary-blue);
+    opacity: 0.8;
+}
+
 .texto-neon {
     color: var(--text-light);
     text-shadow: 0 0 8px var(--secondary-pink),
@@ -318,4 +326,5 @@ body::before {
     .grade-projetos {
         grid-template-columns: 1fr;
     }
+
 }
